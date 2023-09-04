@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easy2leraning</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <img onclick="window.location.href='index.html'" src="images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="blue" href="join.html">Join For Free</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs postpage">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn Web Programming In The Easiest Way</h3>
+                <p>Web development is the process of creating websites and web applications that are accessible through
+                    the internet. It involves a combination of coding, design, and content creation to build functional
+                    and visually appealing online platforms. <b></b> Web development can be broadly categorized into two types: front-end development and back-end
+                    development. Front-end development deals with the user interface and user experience, focusing on
+                    how the website looks and interacts with users. Technologies like HTML, CSS, and JavaScript are
+                    commonly used in front-end development. <b></b> Back-end development, on the other hand, deals with the server-side of websites, managing data,
+                    databases, and ensuring the proper functioning of the web application. Popular back-end technologies
+                    include PHP, Python, Ruby, Java, and Node.js. <b></b> Additionally, web development involves working with frameworks and libraries to streamline the
+                    development process and improve efficiency. Some well-known web development frameworks include
+                    React, Angular, Vue.js, Django, and Ruby on Rails. <b></b> Web development has evolved significantly, and the demand for skilled web developers has increased
+                    with the growth of the internet and e-commerce. Web developers are also responsible for ensuring
+                    websites are mobile-friendly and responsive to different devices. <b></b> The field of web development continues to evolve with new technologies and best practices emerging
+                    regularly. It requires continuous learning and staying up-to-date with the latest trends and
+                    advancements to create modern and secure web solutions. Whether it's building personal websites,
+                    e-commerce platforms, or complex web applications, web development plays a crucial role in shaping
+                    the digital world we live in today.
+                </p>
+                <a class="blue" href="#">Read Next ?</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>About Us</h3>
+            <li>About Easy2learning</li>
+            <li>Carrier</li>
+            <li>Photo Gallery</li>
+            <li>Video Gallery</li>
+        </div>
+        <div class="footer-col">
+            <h3>Coaching</h3>
+            <li>WBJEE Coaching</li>
+            <li>JELET Coaching</li>
+            <li>RRB-JE Coaching</li>
+            <li>SSC-JE Coaching</li>
+            <li>SEMESTER-Coaching</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <li><a href="#">Blog </a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" name="" placeholder="Your Email Address" id="">
+                <a class="yellow" href="">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by <a
+                    href="https://www.linkedin.com/in/ruhul-amin-765b40200">Ruhul Amin</a> &
+                <a href="https://www.linkedin.com/in/rumpa-chakraborty-559867201/">Rumpa Chakraborty</a></h6>
+            <div class="pro-link">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <a href="https://play.google.com/store/apps/details?id=co.edvin.ubglj"><i
+                        class='fab fa-google-play'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $("#menu-btn").click(function () {
+            $("nav .navigation ul").addClass("active");
+        });
+        $("#menu-close").click(function () {
+            $("nav .navigation ul").removeClass("active");
+        });
+    </script>
+
+</body>
+
+</html>

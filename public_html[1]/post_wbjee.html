@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easy2leraning</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <img onclick="window.location.href='index.html'" src="images/logo.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="blue" href="join.html">Join For Free</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs postpage">
+            <div class="post">
+                <img src="images/WBJEE 2024 OFFLINE BATCH.png" alt="">
+                <h3>Learn Web Development In The Easiest Way</h3>
+                <p>Easy2Learning is a WBJEE caching center that is committed to providing students with the resources
+                    and support they need to prepare for the West Bengal Joint Entrance Examination (WBJEE). <br> <br> The center
+                    is staffed by experienced educators who are dedicated to helping students achieve their academic
+                    goals.One of the key advantages of Easy2Learning is the wide range of study materials and resources
+                    that it provides. The center offers textbooks, online resources, and practice tests that are
+                    carefully curated to ensure that students have access to the most up-to-date and relevant
+                    information. These resources are designed to help students understand the WBJEE syllabus and exam
+                    pattern and develop the skills and knowledge they need to succeed in the exam.In addition to study
+                    materials, Easy2Learning offers personalized coaching and mentorship to students. <br> The center's staff
+                    work closely with students to identify their strengths and weaknesses and develop a customized study
+                    plan that suits their individual needs. This personalized approach helps to ensure that students
+                    receive the support and guidance they need to improve their performance and achieve their academic
+                    goals.Another advantage of Easy2Learning is the supportive learning environment it provides. The
+                    center encourages collaboration and teamwork among students, offering extracurricular activities
+                    such as sports, games, and cultural events. These activities help to create a sense of community and
+                    camaraderie among students, making it easier for them to learn and succeed together. <br> The staff at
+                    Easy2Learning are highly trained and experienced educators who have a deep understanding of the
+                    WBJEE syllabus and exam pattern. They are able to provide expert guidance and support to students,
+                    helping them to improve their performance and achieve their academic goals. Many of the staff
+                    members are themselves graduates of top engineering and technological institutes, and are able to
+                    offer valuable insights and advice based on their own experiences.In addition to providing resources
+                    and support to students, Easy2Learning also offers career counseling and placement services. <br> The
+                    center helps students identify their career goals and find employment opportunities that match their
+                    skills and interests. This can be particularly valuable for students who are interested in pursuing
+                    careers in engineering and technology, as it can be a competitive and challenging field.Overall,
+                    Easy2Learning is an excellent WBJEE caching center that provides students with the resources and
+                    support they need to succeed in the highly competitive world of engineering and technology. The
+                    center's personalized approach, supportive learning environment, and experienced staff make it a
+                    valuable resource for students who are preparing for the WBJEE exam.
+                </p>
+                <a class="blue" href="https://www.easy2learning.in/login">Join Now</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>About Us</h3>
+            <li>About Easy2learning</li>
+            <li>Carrier</li>
+            <li>Photo Gallery</li>
+            <li>Video Gallery</li>
+        </div>
+        <div class="footer-col">
+            <h3>Coaching</h3>
+            <li>WBJEE Coaching</li>
+            <li>JELET Coaching</li>
+            <li>RRB-JE Coaching</li>
+            <li>SSC-JE Coaching</li>
+            <li>SEMESTER-Coaching</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <li><a href="#">Blog </a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" name="" placeholder="Your Email Address" id="">
+                <a class="yellow" href="">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by <a
+                    href="https://www.linkedin.com/in/ruhul-amin-765b40200">Ruhul Amin</a> &
+                <a href="https://www.linkedin.com/in/rumpa-chakraborty-559867201/">Rumpa Chakraborty</a></h6>
+            <div class="pro-link">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <a href="https://play.google.com/store/apps/details?id=co.edvin.ubglj"><i
+                        class='fab fa-google-play'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $("#menu-btn").click(function () {
+            $("nav .navigation ul").addClass("active");
+        });
+        $("#menu-close").click(function () {
+            $("nav .navigation ul").removeClass("active");
+        });
+    </script>
+
+</body>
+
+</html>

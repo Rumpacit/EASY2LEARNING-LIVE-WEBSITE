@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easy2leraning</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <img onclick="window.location.href='index.html'" src="images/logo.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="blue" href="join.html">Join For Free</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs postpage">
+            <div class="post">
+                <img src="images/b3.jpg" alt="">
+                <h3>Learn Javascriptt In The Easiest Way</h3>
+                <p>JavaScript is a powerful and versatile programming language that is primarily used for web
+                    development. It enables developers to add interactivity and dynamic functionality to websites and
+                    web applications. As one of the core technologies of the internet, JavaScript is supported by all
+                    modern web browsers, making it a ubiquitous language for creating responsive and interactive web
+                    experiences. <b></b> Originally designed by Brendan Eich at Netscape in 1995, JavaScript has grown exponentially in
+                    popularity over the years. It is now widely used for front-end development to enhance the user
+                    experience with features like animations, form validation, and real-time updates. <b></b> One of the key strengths of JavaScript is its ability to interact with HTML and CSS, allowing
+                    developers to manipulate webpage elements and change their appearance in real-time. This feature is
+                    fundamental to the dynamic nature of modern web applications. <b></b> JavaScript's flexibility is further enhanced by its support for various frameworks and libraries.
+                    Frameworks like React, Angular, and Vue.js simplify the development process, allowing developers to
+                    build complex applications more efficiently and maintainably. Libraries like jQuery provide a wide
+                    range of utilities and functionalities that streamline common tasks. <b></b> With the rise of Node.js, JavaScript has also become a popular choice for back-end development.
+                    Node.js allows developers to use JavaScript on the server-side, enabling them to build scalable and
+                    high-performance web servers and applications. <b></b> Despite its many advantages, JavaScript also has its challenges. Cross-browser compatibility issues
+                    and security concerns need to be addressed carefully during development. Moreover, due to its
+                    forgiving nature, developers must be mindful of potential pitfalls and follow best practices to
+                    avoid errors and bugs. <b></b> As the web continues to evolve, JavaScript remains at the forefront of innovation, adapting to new
+                    technologies and demands. Its ecosystem and community continue to grow, making it a valuable skill
+                    for developers to master in the ever-changing landscape of web development.
+                </p>
+                <a class="blue" href="https://www.easy2learning.in/login">Join Now</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>About Us</h3>
+            <li>About Easy2learning</li>
+            <li>Carrier</li>
+            <li>Photo Gallery</li>
+            <li>Video Gallery</li>
+        </div>
+        <div class="footer-col">
+            <h3>Coaching</h3>
+            <li>WBJEE Coaching</li>
+            <li>JELET Coaching</li>
+            <li>RRB-JE Coaching</li>
+            <li>SSC-JE Coaching</li>
+            <li>SEMESTER-Coaching</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <li><a href="#">Blog </a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" name="" placeholder="Your Email Address" id="">
+                <a class="yellow" href="">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by <a
+                    href="https://www.linkedin.com/in/ruhul-amin-765b40200">Ruhul Amin</a> &
+                <a href="https://www.linkedin.com/in/rumpa-chakraborty-559867201/">Rumpa Chakraborty</a></h6>
+            <div class="pro-link">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <a href="https://play.google.com/store/apps/details?id=co.edvin.ubglj"><i
+                        class='fab fa-google-play'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $("#menu-btn").click(function () {
+            $("nav .navigation ul").addClass("active");
+        });
+        $("#menu-close").click(function () {
+            $("nav .navigation ul").removeClass("active");
+        });
+    </script>
+
+</body>
+
+</html>
